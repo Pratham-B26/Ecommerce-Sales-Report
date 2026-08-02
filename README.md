@@ -95,4 +95,4 @@ Business Intelligence
 Analytical Thinking
 
 6. Screenshots / Demos Show what the dashboard looks like.
-Example: ![Dasboard_Preview](https://github.com/Pratham-B26/Ecommerce-Sales-Report/blob/main/Ecommerce_Sales_Report.png)
+Example: ![Dasboard_Preview](https://github.com/Pratham-B26/Ecommerce-Sales-Report/blob/main/Ecommerce_Sales_Report%20(2).png)

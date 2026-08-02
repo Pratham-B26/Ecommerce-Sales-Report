@@ -52,7 +52,7 @@ Automated reporting with interactive Power BI dashboards.
 Enabled faster analysis of sales trends, customer behavior, and business performance.
 Supported data-driven decision-making through clear, actionable visual insights.
 
-Skills Demonstrated
+Skills Demonstrated:
 Python (Pandas)
 SQL
 Power Query (ETL)

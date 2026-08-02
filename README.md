@@ -1,67 +1,94 @@
 # Ecommerce-Sales-Report
 1. Project Title / Headline
 
-E-commerce Sales Report Dashboard | End-to-End Data Analytics Project
+E-commerce Sales Analysis Dashboard | End-to-End Business Intelligence Project
 
 2. Short Description / Purpose
 
-Developed an interactive E-commerce Sales Dashboard to analyze sales performance, customer behavior, product trends, and key business KPIs. The project followed a complete data analytics workflow by cleaning raw data with Python (Pandas), storing the processed data in SQL, and building an interactive dashboard in Power BI using Power Query and DAX.
+Developed an interactive E-commerce Sales Analysis Dashboard to monitor sales performance, profitability, customer purchasing trends, product performance, and order status. The project follows an end-to-end analytics workflow by performing EDA and data cleaning using Python (Pandas), storing the processed data in MySQL, and creating interactive business reports in Power BI using Power Query and DAX.
 
 3. Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
-Python (Pandas) – Data cleaning, preprocessing, handling missing values, and formatting datasets
-SQL (MySQL) – Loading the cleaned data into a relational database and querying data for analysis
-Power Query – Data extraction, transformation, and loading (ETL)
-DAX (Data Analysis Expressions) – Creating KPIs, calculated columns, and measures
-Power BI – Interactive dashboard development and data visualization
+Python (Pandas) – Exploratory Data Analysis (EDA), data cleaning, preprocessing, and transformation
+MySQL – Storing cleaned data and performing SQL queries
+Power Query – ETL (Extract, Transform, Load) and data preparation
+DAX (Data Analysis Expressions) – KPI calculations, measures, and business metrics
+Power BI – Dashboard development, data modeling, and interactive visualizations
 
 4. Data Source
-Source: Kaggle E-commerce Sales Dataset
-Workflow:
-Imported the raw dataset into Python (Pandas).
-Cleaned and transformed the data by handling missing values, duplicates, and inconsistent formats.
+Dataset: Kaggle E-commerce Sales Dataset
+Project Workflow:
+Extracted raw data from Kaggle.
+Performed Exploratory Data Analysis (EDA) using Pandas.
+Cleaned and transformed the dataset by handling missing values, duplicates, incorrect data types, and inconsistent records.
 Loaded the cleaned dataset into MySQL.
-Connected Power BI to the SQL database.
+Connected Power BI to MySQL.
 Used Power Query for additional transformations.
-Created KPIs and measures using DAX.
-Designed an interactive dashboard for business analysis.
+Created KPIs using DAX and designed an interactive dashboard in Power BI.
 
-5. Features / Highlights
+6. Features / Highlights
 Business Problem
 
-Raw e-commerce sales data contained inconsistencies and required preprocessing before meaningful analysis. A centralized reporting solution was needed to monitor sales performance and business KPIs.
+E-commerce businesses generate large volumes of transactional data, making it difficult to track sales performance, profitability, customer preferences, and product demand through raw tables. An interactive reporting solution was required to consolidate this information into meaningful business insights.
 
 Goal of the Dashboard
 
-To create an end-to-end Business Intelligence solution that transforms raw sales data into actionable insights through data cleaning, SQL storage, and interactive Power BI reporting.
+To develop a centralized Business Intelligence dashboard that enables stakeholders to monitor key business metrics, analyze sales trends, evaluate product performance, and support strategic decision-making through interactive visualizations.
 
-Dashboard Highlights:
-Cleaned and preprocessed raw data using Python (Pandas).
-Loaded the cleaned data into MySQL for structured storage and querying.
-Used SQL to retrieve and prepare data for reporting.
-Applied Power Query for additional data transformation.
-Created dynamic KPIs and business metrics using DAX.
-Built interactive Power BI dashboards with filters, slicers, and drill-down functionality.
-Visualized sales, profit, customers, products, and regional performance through dynamic charts and KPI cards.
+Dashboard Walkthrough
+KPI Reporting
+Total Sales
+Total Profit
+Total Orders
+Average Order Value (AOV)
+
+These KPI cards provide a quick overview of the company's overall performance.
+
+Sales Trend Analysis
+Monthly Sales Trend
+Product-wise Sales Analysis
+Category-wise Sales Analysis
+
+Helps identify seasonal trends, high-performing products, and top-selling categories.
+
+Customer & Payment Insights
+Sales by Payment Mode
+Order Status Distribution
+
+Provides insights into customer payment preferences and order fulfillment performance.
+
+Regional Analysis
+Sales by City (Map Visual)
+
+Identifies high-performing cities and supports regional business planning.
+
+Interactive Filters
+Month
+City
+Payment Mode
+
+Allows users to dynamically explore and compare business performance across multiple dimensions.
+
 Business Impact & Insights
-Improved data quality through preprocessing and validation.
-Centralized cleaned data in a SQL database for efficient querying.
-Automated reporting with interactive Power BI dashboards.
-Enabled faster analysis of sales trends, customer behavior, and business performance.
-Supported data-driven decision-making through clear, actionable visual insights.
-
-Skills Demonstrated:
-Python (Pandas)
-SQL
-Power Query (ETL)
-DAX
-Power BI
+Improved data quality through EDA and preprocessing using Pandas.
+Centralized cleaned data in MySQL for structured storage and efficient querying.
+Automated business reporting using interactive Power BI dashboards.
+Enabled monitoring of sales, profit, orders, and customer purchasing behavior.
+Identified top-performing products, categories, payment methods, and cities.
+Supported data-driven decision-making with interactive KPI reporting and drill-down analysis.
+Skills Demonstrated
+Exploratory Data Analysis (EDA)
 Data Cleaning
-Data Transformation
+Data Transformation (ETL)
+SQL Querying
+MySQL
+Power Query
 Data Modeling
-KPI Development
+DAX
+KPI Reporting
+Power BI
 Dashboard Design
 Data Visualization
 Business Intelligence
